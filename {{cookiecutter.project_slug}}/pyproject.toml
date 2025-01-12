@@ -6,8 +6,9 @@ authors = [
     {name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}"}
 ]
 readme = "README.md"
-requires-python = "^{{ cookiecutter.python_version }}"
+requires-python = ">={{ cookiecutter.python_version }}"
 dependencies = [
+    "python-dotenv>=1.0.1",
     {% if cookiecutter.project_type == "api" %}
     "fastapi>=0.104.0",
     "uvicorn>=0.24.0",
@@ -16,11 +17,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.4.3",
-    "ruff>=0.1.3",
-    "mypy>=1.6.1",
-    "black>=23.10.1",
-    "pipdeptree>=2.13.0",
+    "pytest>=8.0.0",
+    "ruff>=0.9.1",
 ]
 
 [build-system]
@@ -28,8 +26,18 @@ requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-select = ["E", "F", "B", "I"]
-line-length = 88
+target-version = "py312"
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W", "F", "B", "C4", "I", "YTT", "S", "SIM", "UP"
+]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
 
 [tool.poetry]
 package-mode = true 
