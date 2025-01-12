@@ -4,7 +4,6 @@
     "project_description": "A Python project with best practices setup",
     "author_name": "Your Name",
     "author_email": "your.email@example.com",
-    "python_version": "3.11",
     "include_cursor_config": [
         "yes",
         "no"

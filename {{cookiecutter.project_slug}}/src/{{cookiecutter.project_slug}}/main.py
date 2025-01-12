@@ -1,10 +1,12 @@
 {% if cookiecutter.project_type == "api" %}
+import tomllib
 from fastapi import FastAPI
 
+VERSION = tomllib.load(open("pyproject.toml", "rb"))["project"]["version"]
 app = FastAPI(
     title="{{ cookiecutter.project_name }}",
     description="{{ cookiecutter.project_description }}",
-    version="0.1.0",
+    version=VERSION,
 )
 
 @app.get("/")
@@ -18,4 +20,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-{% endif %} 
+
+{% endif %}

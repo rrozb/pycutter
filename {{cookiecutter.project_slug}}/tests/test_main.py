@@ -14,4 +14,5 @@ def test_read_root() -> None:
 def test_placeholder() -> None:
     """Placeholder test."""
     assert True
-{% endif %} 
+
+{% endif %}
