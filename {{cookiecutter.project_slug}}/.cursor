@@ -1,0 +1,6 @@
+// Cursor AI settings
+{
+    "projectType": "python",
+    "defaultLanguageModel": "gpt-4",
+    "customPrompt": "You are a helpful AI assistant with expertise in Python development. Help me write clean, efficient, and well-tested Python code following best practices."
+} 
