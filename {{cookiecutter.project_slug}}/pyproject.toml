@@ -19,6 +19,7 @@ dependencies = [
 dev = [
     "pytest>=8.0.0",
     "ruff>=0.9.1",
+    "mypy>=1.14.0",
 ]
 
 [build-system]
@@ -44,3 +45,18 @@ quote-style = "double"
 
 [tool.poetry]
 package-mode = true 
+
+[tool.mypy]
+python_version = "{{ cookiecutter.python_version }}"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true 
