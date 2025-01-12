@@ -7,20 +7,21 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">={{ cookiecutter.python_version }}"
-dependencies = [
-    "python-dotenv>=1.0.1",
-    {% if cookiecutter.project_type == "api" %}
-    "fastapi>=0.104.0",
-    "uvicorn>=0.24.0",
-    {% endif %}
-]
 
-[project.optional-dependencies]
-dev = [
-    "pytest>=8.0.0",
-    "ruff>=0.9.1",
-    "mypy>=1.14.0",
-]
+[tool.poetry.dependencies]
+python-dotenv = "^1.0.1"
+{% if cookiecutter.project_type == "api" %}
+fastapi = "^0.104.0"
+uvicorn = "^0.24.0"
+{% endif %}
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.9.0"
+mypy = "^1.14.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0"]
