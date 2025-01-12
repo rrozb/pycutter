@@ -6,7 +6,7 @@ authors = [
     {name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}"}
 ]
 readme = "README.md"
-requires-python = ">={{ cookiecutter.python_version }}, <4.0"
+requires-python = ">=3.12, <4.0"
 
 [tool.poetry.dependencies]
 python-dotenv = "^1.0.1"
@@ -46,7 +46,11 @@ quote-style = "double"
 "tests/*" = ["S101"]
 
 [tool.poetry]
-package-mode = true 
+{% if cookiecutter.project_type == "api" %}
+package-mode = false
+{% else %}
+package-mode = true
+{% endif %}
 
 [tool.mypy]
 python_version = "{{ cookiecutter.python_version }}"
