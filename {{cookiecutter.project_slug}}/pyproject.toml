@@ -6,7 +6,7 @@ authors = [
     {name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}"}
 ]
 readme = "README.md"
-requires-python = ">={{ cookiecutter.python_version }}"
+requires-python = ">={{ cookiecutter.python_version }}, <4.0"
 
 [tool.poetry.dependencies]
 python-dotenv = "^1.0.1"
@@ -22,6 +22,7 @@ optional = true
 pytest = "^8.0.0"
 ruff = "^0.9.0"
 mypy = "^1.14.0"
+deptry = "^0.22.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0"]
