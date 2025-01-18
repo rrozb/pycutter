@@ -12,10 +12,12 @@ cookiecutter-python-template/
     │   └── workflows/
     │       ├── ci.yml
     │       └── release.yml
-    ├── src/
-    │   └── {{cookiecutter.project_slug}}/
-    │       ├── __init__.py
-    │       └── main.py
+    ├── {{cookiecutter.project_slug}}/
+    │   ├── __init__.py
+    │   ├── config/
+    │   │   ├── __init__.py
+    │   │   └── config.py
+    │   └── main.py
     ├── tests/
     │   ├── __init__.py
     │   └── test_main.py
