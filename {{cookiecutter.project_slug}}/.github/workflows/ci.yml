@@ -28,7 +28,7 @@ jobs:
       run: poetry run pytest
     
     - name: Run type checking
-      run: poetry run mypy src tests
+      run: poetry run mypy {{ cookiecutter.project_slug }} tests
     
     - name: Run linting
       run: poetry run ruff check . 
