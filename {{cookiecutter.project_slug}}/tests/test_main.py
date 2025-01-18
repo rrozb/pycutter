@@ -1,5 +1,4 @@
-{% if cookiecutter.project_type == "api" %}
-from fastapi.testclient import TestClient
+{% if cookiecutter.project_type == "api" %}from fastapi.testclient import TestClient
 from {{ cookiecutter.project_slug }}.main import app
 
 client = TestClient(app)
