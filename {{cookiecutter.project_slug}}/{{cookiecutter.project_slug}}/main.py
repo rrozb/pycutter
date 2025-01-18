@@ -18,6 +18,9 @@ async def root() -> dict[str, str]:
     return {"message": "Welcome to {{ cookiecutter.project_name }}!"}
 {% else %}
 from {{cookiecutter.project_slug}}.config import settings
+
+_ = settings
+
 def main() -> None:
     """Main function."""
     print("Welcome to {{ cookiecutter.project_name }}!")
