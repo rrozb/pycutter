@@ -1,13 +1,9 @@
-"""Configuration module for {{ cookiecutter.project_name }}."""
-
-from functools import lru_cache
 from pathlib import Path
 from typing import ClassVar
 
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
-# Load environment variables from .env file
 load_dotenv()
 
 
