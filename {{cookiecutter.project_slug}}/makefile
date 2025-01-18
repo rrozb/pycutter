@@ -10,7 +10,7 @@ lint:
 	poetry run ruff check .
 
 type-check:
-	poetry run mypy src tests
+	poetry run mypy {{ cookiecutter.project_slug }} tests
 
 test:
 	poetry run pytest
