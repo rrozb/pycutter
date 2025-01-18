@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- Python {{ cookiecutter.python_version }}
+- Python 3.12
 - Poetry (2.0 or higher)
 
 ## Installation
