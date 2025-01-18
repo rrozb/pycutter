@@ -26,7 +26,7 @@ ruff = "^0.9.0"
 mypy = "^1.14.0"
 deptry = "^0.22.0"
 {% if cookiecutter.project_type == "api" %}
-httpx = "^0.28.0"
+httpx = "<=0.27.0"
 {% endif %}
 
 [build-system]
