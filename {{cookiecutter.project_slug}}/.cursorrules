@@ -21,7 +21,7 @@ All code must be formatted consistently and comply with the following rules:
 
 5. **Code Reviews & Commit Rules**  
    - Commit messages **must follow Conventional Commits** (e.g., `feat:`, `fix:`, `refactor:`).  
-   - Code must pass all **pre-commit checks** before being merged.  
+   - Code must pass all **pre-commit checks** before being merged. 
 
 6. **General Guidelines**  
    - Prefer **explicit over implicit** in all cases.  
