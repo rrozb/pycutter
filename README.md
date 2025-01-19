@@ -114,5 +114,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - Coded with [Cursor](https://www.cursor.com/) and [Claude](https://www.anthropic.com)
+- Logo made with [Gemini 2](https://deepmind.google/technologies/gemini/)
 
 
