@@ -16,7 +16,7 @@ A highly opinionated Python template packed with my favorite tools and best prac
   - Type checking with mypy
   - Code formatting
   - Git ignore patterns
-  - Cursor prompt
+  - [Cursor](https://docs.cursor.com/) prompt
   - [CodeRabbit](https://docs.coderabbit.ai/) AI code review
 
 ## 📦 Project Structure
@@ -72,7 +72,7 @@ git commit -m "Initial commit"
 git push origin main
 ```
 
-6. Start coding 💻 & follow the new project's README.md
+6. Start coding 💻 & follow the new project's README.md.
 
 ## 📋 Requirements
 
