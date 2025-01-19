@@ -17,4 +17,4 @@ test:
 
 check: format lint type-check test
 
-all: install check
+all: install format lint check type-check test
