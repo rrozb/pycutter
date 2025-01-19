@@ -62,6 +62,7 @@ cookiecutter https://github.com/rrozb/pycutter.git
 4. Set up remote repository:
 ```bash
 git remote add origin <your-repo-url>
+git branch -M main
 ```
 5. Commit and push:
 ```bash
