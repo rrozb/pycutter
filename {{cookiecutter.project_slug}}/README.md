@@ -1,13 +1,13 @@
-# {{ cookiecutter.project_name }}
+# {{ cookiecutter.project_name }} 🚀
 
-{{ cookiecutter.project_description }}
+{{ cookiecutter.project_description }} ✨
 
-## Prerequisites
+## Prerequisites 📋
 
-- Python 3.12
-- Poetry (2.0 or higher)
+- Python 3.12 🐍
+- Poetry (2.0 or higher) 📦
 
-## Installation
+## Installation 🛠️
 
 1. Install pipx using this [guide](https://python-poetry.org/docs/#installation)
 2. Install the dependencies
@@ -15,7 +15,7 @@
 poetry install
 ```
 
-## Running the project
+## Running the project ▶️
 
 ```bash
 poetry run python -m {{cookiecutter.project_slug}}.main.py

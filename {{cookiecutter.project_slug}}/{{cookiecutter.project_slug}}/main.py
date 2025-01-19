@@ -3,7 +3,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-from python_project.config import settings
+from python_project.settings import settings
 
 
 _ = settings
@@ -23,7 +23,7 @@ async def root() -> dict[str, str]:
 if __name__ == "__main__":
     uvicorn.run(app, host="localhost", port=8000)
 {% else %}
-from {{cookiecutter.project_slug}}.config import settings
+from {{cookiecutter.project_slug}}.settings import settings
 
 _ = settings
 
