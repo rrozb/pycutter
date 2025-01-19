@@ -1,0 +1,29 @@
+This project follows strict Python 3.12 conventions.  
+All code must be formatted consistently and comply with the following rules:
+
+1. **Python Version**  
+   - Code must be compatible with **Python 3.12** syntax.  
+   - Avoid deprecated constructs and prefer modern features like `match` statements where appropriate.  
+
+2. **Linting & Formatting (Ruff)**  
+   - **Ruff is the source of truth** for style and linting.  
+   - Code must be **auto-formatted** using Ruff.  
+   - Run `ruff check --fix` before committing.  
+
+3. **Typing (MyPy)**  
+   - **Strict type checking** is enforced using MyPy.  
+   - Ensure **full type coverage** for all functions, including internal utilities.  
+   - Use `mypy --strict` to verify compliance.  
+
+4. **Repository-Wide Consistency**  
+   - Always check against the **full repository** (`composer full_repo`) to avoid style drift.  
+   - Cross-check against existing Ruff & MyPy configurations to prevent conflicts.  
+
+5. **Code Reviews & Commit Rules**  
+   - Commit messages **must follow Conventional Commits** (e.g., `feat:`, `fix:`, `refactor:`).  
+   - Code must pass all **pre-commit checks** before being merged. 
+
+6. **General Guidelines**  
+   - Prefer **explicit over implicit** in all cases.  
+   - Do not introduce unnecessary dependencies.  
+   - Keep functions small, focused, and well-documented.  
