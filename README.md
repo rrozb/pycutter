@@ -17,6 +17,7 @@ A highly opinionated Python template packed with my favorite tools and best prac
   - Code formatting
   - Git ignore patterns
   - Cursor prompt
+  - [CodeRabbit](https://docs.coderabbit.ai/) AI code review
 
 ## 📦 Project Structure
 
@@ -94,11 +95,9 @@ Or just open an issue 😊
 
 ## What is next
 
-- Add [coderabbit config](https://docs.coderabbit.ai/getting-started/configure-coderabbit)
 - Figure out how to improve repo for [Devin](https://docs.devin.ai/)
 - Add a guide for AI assisted development.
 - Add documentation support.
-
 
 ## 📝 License
 
