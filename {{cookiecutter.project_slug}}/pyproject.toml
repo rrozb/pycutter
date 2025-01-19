@@ -71,3 +71,7 @@ warn_unused_ignores = true
 warn_no_return = true
 warn_unreachable = true
 strict_equality = true 
+
+[tool.deptry.per_rule_ignores]
+DEP002 = ["pydantic"]
+DEP003 = ["{{cookiecutter.project_slug}}"]

@@ -16,11 +16,13 @@ Your AI collegues deserve better 💪
 - [Poetry](https://python-poetry.org/) for dependency management
 - [Ruff](https://docs.astral.sh/ruff/) for lightning-fast linting
 - [Pytest](https://docs.pytest.org/en/latest/) with coverage reporting
+- [Deptry](https://deptry.com/) for dependency analysis
 - GitHub Actions CI pipeline
 - Pre-configured settings for:
   - Type checking with mypy
   - Code formatting
   - Git ignore patterns
+  - Dependency analysis with Deptry
   - [Cursor](https://docs.cursor.com/) prompt
   - [CodeRabbit](https://docs.coderabbit.ai/) AI code review
 
