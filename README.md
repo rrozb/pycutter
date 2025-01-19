@@ -1,7 +1,7 @@
 # pycutter 🔪
 
 <p align="center">
-  <img src="assets/logo.jpg" alt="Pycutter Logo" width="200"/>
+  <img src="assets/logo.webp" alt="Pycutter Logo" width="200"/>
 </p>
 
 A highly opinionated Python template packed with my favorite tools and best practices. Built to be a modern, no-nonsense starting point that works great for both human developers and AI assistants.
