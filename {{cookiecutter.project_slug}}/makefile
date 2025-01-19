@@ -15,6 +15,9 @@ type-check:
 test:
 	poetry run pytest
 
-check: format lint type-check test
+deptry:
+	poetry run deptry
+
+check: format lint type-check test deptry
 
 all: install format lint check type-check test
