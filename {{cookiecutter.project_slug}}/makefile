@@ -1,7 +1,7 @@
 .PHONY: install format lint type-check test clean all
 
 install:
-	poetry install
+	poetry install --with dev
 
 format:
 	poetry run ruff format .
