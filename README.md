@@ -1,5 +1,9 @@
 # pycutter 🔪
 
+<p align="center">
+  <img src="assets/logo.jpg" alt="Pycutter Logo" width="200"/>
+</p>
+
 A highly opinionated Python template packed with my favorite tools and best practices. Built to be a modern, no-nonsense starting point that works great for both human developers and AI assistants.
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-312/)
@@ -22,6 +26,8 @@ A highly opinionated Python template packed with my favorite tools and best prac
 
 ```
 cookiecutter-python-template/
+├── assets/
+│   └── logo.png
 ├── cookiecutter.json
 ├── hooks/
 │   └── post_gen_project.py
