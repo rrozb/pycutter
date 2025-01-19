@@ -1,6 +1,11 @@
 # pycutter 🔪
 
-A highly opinionated Python template packed with my favorite tools and best practices. Built to be a modern, no-nonsense starting point that works great for both human developers and AI assistants.
+<p align="center">
+  <img src="assets/logo.webp" alt="Pycutter Logo" width="200"/>
+</p>
+
+A highly opinionated Python template built for Human 👤 and AI 🤖 devs, featuring AI-friendly configurations for Cursor, CodeRabbit, and future AI tools. 
+Your AI collegues deserve better 💪
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-312/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,6 +28,8 @@ A highly opinionated Python template packed with my favorite tools and best prac
 
 ```
 cookiecutter-python-template/
+├── assets/
+│   └── logo.png
 ├── cookiecutter.json
 ├── hooks/
 │   └── post_gen_project.py
@@ -99,13 +106,10 @@ Or just open an issue 😊
 - Add a guide for AI assisted development.
 - Add documentation support.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - Coded with [Cursor](https://www.cursor.com/) and [Claude](https://www.anthropic.com)
+- Logo made with [Gemini 2](https://deepmind.google/technologies/gemini/)
 
 
