@@ -16,7 +16,7 @@ test:
 	poetry run pytest
 
 deptry:
-	poetry run deptry
+	poetry run deptry {{ cookiecutter.project_slug }} tests
 
 check: format lint type-check test deptry
 
