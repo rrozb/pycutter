@@ -4,7 +4,8 @@
   <img src="assets/logo.webp" alt="Pycutter Logo" width="200"/>
 </p>
 
-A highly opinionated Python template built for Human 👤 and AI 🤖 devs, featuring AI-friendly configurations for Cursor, CodeRabbit, and future AI tools. Your AI collegues deserve better 💪
+A highly opinionated Python template built for Human 👤 and AI 🤖 devs, featuring AI-friendly configurations for Cursor, CodeRabbit, and future AI tools. 
+Your AI collegues deserve better 💪
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-312/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
