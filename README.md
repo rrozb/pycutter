@@ -52,13 +52,25 @@ cookiecutter-python-template/
 ```bash
 pip install -U cookiecutter
 ```
+2. Create a [new repository](https://github.com/new) on GitHub (or other git provider)
 
-2. Generate a new Python project:
+3. Generate a new Python project:
 ```bash
 cookiecutter https://github.com/rrozb/pycutter.git
 ```
 
-3. Follow the interactive prompts to customize your project.
+4. Set up remote repository:
+```bash
+git remote add origin <your-repo-url>
+```
+5. Commit and push:
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
+
+6. Start coding 💻 & follow the new project's README.md
 
 ## 📋 Requirements
 
@@ -84,6 +96,7 @@ Or just open an issue 😊
 - Add [coderabbit config](https://docs.coderabbit.ai/getting-started/configure-coderabbit)
 - Figure out how to improve repo for [Devin](https://docs.devin.ai/)
 - Add a guide for AI assisted development.
+- Add documentation support.
 
 
 ## 📝 License

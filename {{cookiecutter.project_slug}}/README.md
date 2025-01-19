@@ -9,7 +9,7 @@
 
 ## Installation 🛠️
 
-1. Install pipx using this [guide](https://python-poetry.org/docs/#installation)
+1. Install poetry using this [guide](https://python-poetry.org/docs/#installing-with-the-official-installer)
 2. Install the dependencies
 ```bash
 poetry install
