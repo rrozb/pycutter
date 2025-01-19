@@ -1,11 +1,12 @@
 import os
-import sys
 
 
 def remove_cursor_config():
-    """Remove .cursor file if not needed."""
+    """Remove .cursor and .coderabbit.yaml files if not needed."""
     if "{{ cookiecutter.include_cursor_config }}" == "no":
         os.remove(".cursor")
+    if "{{ cookiecutter.include_coderabbit_config }}" == "no":
+        os.remove(".coderabbit.yaml")
 
 
 def main():
