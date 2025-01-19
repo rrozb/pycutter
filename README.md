@@ -40,9 +40,9 @@ cookiecutter-python-template/
     │   ├── __init__.py
     │   └── test_main.py
     ├── .gitignore
-    ├── .cursor
-    ├── .ruff.toml
-    ├── mypy.ini
+    ├── .cursorrules
+    ├── .coderabbit.yaml
+    ├── makefile
     ├── pyproject.toml
     └── README.md
 ```
