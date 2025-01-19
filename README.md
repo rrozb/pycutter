@@ -1,8 +1,26 @@
-# pycutter
-A heavily opinionated cookiecutter template built around my toolchain of choice, featuring optional setup for Cursor.
+# pycutter 🔪
 
+A highly opinionated Python template packed with my favorite tools and best practices. Built to be a modern, no-nonsense starting point that works great for both human developers and AI assistants.
 
-## Project Structure
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-312/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 🚀 Features
+
+- Modern Python 3.12 setup
+- [Poetry](https://python-poetry.org/) for dependency management
+- [Ruff](https://docs.astral.sh/ruff/) for lightning-fast linting
+- [Pytest](https://docs.pytest.org/en/latest/) with coverage reporting
+- GitHub Actions CI pipeline
+- Pre-configured settings for:
+  - Type checking with mypy
+  - Code formatting
+  - Git ignore patterns
+  - Cursor prompt
+
+## 📦 Project Structure
+
+```
 cookiecutter-python-template/
 ├── cookiecutter.json
 ├── hooks/
@@ -26,21 +44,55 @@ cookiecutter-python-template/
     ├── mypy.ini
     ├── pyproject.toml
     └── README.md
-
-## Features
-- Python 3.12
-- Poetry
-- Ruff
-- Pytest
-- Pytest-cov
-
-## Usage
-Install cookiecutter
 ```
+
+## 🛠️ Quick Start
+
+1. First, ensure you have cookiecutter installed:
+```bash
 pip install -U cookiecutter
 ```
-Then run the following command to create a new project:
+
+2. Generate a new Python project:
 ```bash
 cookiecutter https://github.com/rrozb/pycutter.git
 ```
+
+3. Follow the interactive prompts to customize your project.
+
+## 📋 Requirements
+
+- Python 3.12+
+- Cookiecutter
+- Poetry (will be installed automatically)
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+Or just open an issue 😊
+
+## What is next
+
+- Add [coderabbit config](https://docs.coderabbit.ai/getting-started/configure-coderabbit)
+- Figure out how to improve repo for [Devin](https://docs.devin.ai/)
+- Add a guide for AI assisted development.
+
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
+- Coded with [Cursor](https://www.cursor.com/) and [Claude](https://www.anthropic.com)
+
 
