@@ -15,25 +15,8 @@
 poetry install
 ```
 
-## Ruff
-
-Run ruff to check the code
+## Running the project
 
 ```bash
-ruff check .
+poetry run python -m {{cookiecutter.project_slug}}.main.py
 ```
-
-Run ruff to format the code
-
-```bash
-ruff format .
-```
-
-## Pytest
-
-Run pytest to run the tests
-
-```bash
-poetry run pytest
-```
-
