@@ -8,6 +8,10 @@
         "yes",
         "no"
     ],
+    "include_coderabbit_config": [
+        "yes",
+        "no"
+    ],
     "project_type": [
         "package",
         "api"
